@@ -2,7 +2,7 @@
 FROM python:3.7-slim-buster
 
 # Install dependencies
-RUN apt-get update && apt-get install -y \
+RUN apt-get update --fix-missing && apt-get install -y \
     python-pip \
     && rm -rf /var/lib/apt/lists/*
 

@@ -18,6 +18,8 @@ lin_reg = LinearRegression()
 log_reg = LogisticRegression()
 svc_m = SVC()
 
+# Warning: solo es demo, no tiene sentido comparar con este train
+# el dataset tiene pocos registros
 #entrenar modelos
 lin_regr = lin_reg.fit(x_train, y_train)
 log_regr = log_reg.fit(x_train, y_train)

@@ -13,7 +13,7 @@ with open('log_reg.pkl', 'rb') as lo:
 with open('svc_m.pkl', 'rb') as sv:
     svc_m = pickle.load(sv)
 
-
+# Warning: solo es demo, no tiene sentido el resultado
 #funcion para clasificar las plantas 
 def classify(num):
     if num == 0:
